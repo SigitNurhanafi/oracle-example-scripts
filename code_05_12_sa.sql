@@ -1,0 +1,4 @@
+SELECT e.employee_id, e.last_name, 
+       d.location_id, department_id
+FROM   employees e JOIN departments d
+USING (department_id) ;

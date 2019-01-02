@@ -1,0 +1,1 @@
+INSERT INTO time_example VALUES('15-JAN-04 09:34:28 AM');

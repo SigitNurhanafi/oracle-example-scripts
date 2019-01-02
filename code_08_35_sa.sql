@@ -1,0 +1,9 @@
+DELETE FROM test;
+
+ROLLBACK;
+
+DELETE FROM test WHERE  id = 100;
+
+SELECT * FROM   test WHERE  id = 100;
+
+COMMIT;
